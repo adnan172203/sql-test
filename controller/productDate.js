@@ -1,6 +1,7 @@
 const Product = require('../models').Product;
 const { Op } = require('sequelize');
 const { sequelize } = require('../models');
+
 module.exports.getProductDateList = async (req, res) => {
   const { start_date, end_date, status } = req.params;
 

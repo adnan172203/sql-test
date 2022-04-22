@@ -10,12 +10,6 @@
 
 - npm install
 
-- npx sequelize-cli db:create
-
-- npx sequelize-cli db:migrate
-
-- npm start
-
 - update the /project/config/config.json file with the necessary info
 
 {
@@ -41,6 +35,12 @@
     "dialect": "postgres"
   }
 }
+
+- npx sequelize-cli db:create
+
+- npx sequelize-cli db:migrate
+
+- npm start
 
 - finally import provided test-db.sql into database for dummy data
 ```

@@ -42,5 +42,5 @@
   }
 }
 
-- finally import test-db.sql into database for dummy data
+- finally import provided test-db.sql into database for dummy data
 ```
